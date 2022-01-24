@@ -1,0 +1,50 @@
+img{
+    height:80px;
+    width: 80px;
+}
+/*ANIMACION LOGO*/
+.navbar-brand:hover{
+    transform: rotate(180deg);
+}
+.sec{
+    height: 400px;
+    background-image: url(restaurante.jpg);
+    background-size: cover;
+}
+.white{
+    color: beige;
+    text-shadow: 3px 3px 3px darkred;
+    
+}
+.jumbotron{
+    margin: 0 !important;
+    border-radius: 0;
+} 
+.caja{
+    padding: 0;
+    border: 2px solid black;
+    background-image: linear-gradient(darkred, orange);
+}
+p{
+    padding: 30px;
+}
+.libre{
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*ANIMACION*/
+    animation-name: tiempo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tiempo{
+    0%{
+        transform: scale (1);
+
+    }
+    100%{
+        transform: scale(1.5);
+    }
+
+}
