@@ -1,0 +1,66 @@
+
+$alto: 150px;
+
+
+.producto{
+  height: 100%;
+}
+
+.caja1{
+  height: $alto;
+  border: 2px solid black;
+  
+}
+.caja2{
+  height: $alto;
+  border: 2px solid black;
+  
+}
+.big{
+  padding: 20px;
+}
+.c1{
+  background-image: url(brochetas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.c2{
+  background-image: url(ensalada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.c3{
+  background-image: url(croquetas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.c4{
+  background-image: url(roco2.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.c5{
+  background-image: url(pescado.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.c6{
+  background-image: url(cazuela.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.c7{
+  background-image: url(carne.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.c8{
+  background-image: url(filete.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}

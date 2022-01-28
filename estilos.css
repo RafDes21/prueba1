@@ -1,157 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Script&display=swap");
-.nuevo {
-  background-image: linear-gradient(orange, black);
+.producto {
   height: 100%;
-  width: 100%;
 }
 
-.bebidas {
+.caja1 {
+  height: 150px;
   border: 2px solid black;
-  height: 200px;
-  width: 300px;
-  margin-left: 5%;
-  padding: 10px;
-  margin-bottom: 10%;
-  background-color: #310e0e;
 }
 
-.titulo {
-  font-size: 80px;
-  text-align: center;
-  font-family: "Luxurious Script", cursive;
-  text-shadow: 2px 2px 2px beige;
+.caja2 {
+  height: 150px;
+  border: 2px solid black;
 }
 
-body {
-  height: 100%;
-  background-image: linear-gradient(orange, black);
+.big {
+  padding: 20px;
 }
 
-form {
-  height: 100%;
-  width: 80%;
-  padding-left: 20%;
+.c1 {
+  background-image: url(brochetas.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.contacto {
-  height: 100%;
+.c2 {
+  background-image: url(ensalada.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.social-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.c3 {
+  background-image: url(croquetas.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.social-buttons__button {
-  margin: 10px 5px 0;
+.c4 {
+  background-image: url(roco2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.social-button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
+.c5 {
+  background-image: url(pescado.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.social-button__inner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: calc(100% - 2px);
-  height: calc(100% - 2px);
-  border-radius: 100%;
-  background: #fff;
-  text-align: center;
+.c6 {
+  background-image: url(cazuela.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.social-button i,
-.social-button svg {
-  position: relative;
-  z-index: 1;
-  transition: 0.3s;
+.c7 {
+  background-image: url(carne.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.social-button i {
-  font-size: 28px;
-}
-
-.social-button svg {
-  height: 40%;
-  width: 40%;
-}
-
-.social-button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  display: block;
-  width: 0;
-  height: 0;
-  border-radius: 100%;
-  transition: 0.3s;
-}
-
-.social-button:focus, .social-button:hover {
-  color: #fff !important;
-}
-
-.social-button:focus::after, .social-button:hover::after {
-  width: 100%;
-  height: 100%;
-  margin-left: -50%;
-}
-
-.social-button--facebook {
-  color: #3b5998 !important;
-}
-
-.social-button--facebook::after {
-  background: #3b5998;
-}
-
-.social-button--twitter {
-  color: #1da1f2 !important;
-}
-
-.social-button--twitter::after {
-  background: #1da1f2;
-}
-
-.social-button--pinterest {
-  color: #bd081c !important;
-}
-
-.social-button--pinterest::after {
-  background: #bd081c;
-}
-
-.social-button--youtube {
-  color: #ff0000 !important;
-}
-
-.social-button--youtube::after {
-  background: #ff0000;
-}
-
-.social-button--instagram {
-  color: #c13584 !important;
-}
-
-.social-button--instagram::after {
-  background: #c13584;
+.c8 {
+  background-image: url(filete.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(orange, black);
 }
 
 /*Nav-Inicio*/
@@ -162,6 +84,16 @@ img {
 
 .navbar-brand:hover {
   transform: rotate(180deg);
+}
+
+.navbar-nav {
+  padding-left: 70px;
+}
+
+h1 {
+  font-family: "Luxurious Script", cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px white;
 }
 
 /*Nav-Final*/
