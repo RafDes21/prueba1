@@ -65,6 +65,64 @@
   background-position: center;
 }
 
+.c9 {
+  background-image: url(selva-negra.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c10 {
+  background-image: url(pastel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c11 {
+  background-image: url(flan.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.c12 {
+  background-image: url(helado.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nosotros {
+  height: 100%;
+}
+
+.row {
+  margin: 0;
+}
+
+.card {
+  margin-left: 60px;
+  margin-top: 30px;
+  height: 420px;
+}
+
+.card1 {
+  height: 50%;
+}
+
+.card2 {
+  height: 50%;
+}
+
+.card3 {
+  height: 50%;
+}
+
+.card4 {
+  height: 50%;
+}
+
+.card5 {
+  height: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
