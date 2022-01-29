@@ -14,12 +14,13 @@ $alto: 150px;
 .caja1{
   height: $alto;
   border: 2px solid black;
+  overflow: auto;
   
 }
 .caja2{
   height: $alto;
   border: 2px solid black;
-  
+  overflow: auto;
 }
 .big{
   padding: 20px;

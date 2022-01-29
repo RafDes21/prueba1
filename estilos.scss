@@ -18,9 +18,10 @@ $font1:'Luxurious Script', cursive;
 
 
 .index {
-    height: 100vh;
-    background-image: linear-gradient(orange, black);
+    height:100vh;
+  
 }
+
 
 
 /*Nav-Inicio*/
@@ -62,38 +63,7 @@ h1{
 
 /*Jumbotron-final*/
 /*seccion-inicio*/
-.caja {
-    padding: 0;
-    border: 2px solid black;
-    background-image: linear-gradient(darkred, orange);
-}
 
-p {
-    padding: 30px;
-}
-
-.libre {
-    margin-left: 40%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /*ANIMACION*/
-    animation-name: tiempo;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes tiempo {
-    0% {
-        transform: scale 1;
-    }
-
-    100% {
-        transform: scale(1.5);
-    }
-}
-.foter{
-    justify-content:space-evenly;
-}
 //navegador
 .socialIcons{
     display: flex;
