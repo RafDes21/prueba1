@@ -3,6 +3,11 @@
 
 .nosotros{
     height: 100%;
+    background-image: url(im_nosot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .row{
@@ -29,4 +34,11 @@
 .card5{
     height: 50%;
 }
-
+.card-text{
+    padding: 10px;
+    margin: 0;
+}
+.card-body{
+    padding: 2px;
+    
+}

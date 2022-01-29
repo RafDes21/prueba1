@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Script&family=Roboto+Condensed&display=swap");
 .producto {
   height: 100%;
+  background-image: url(im_producto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .caja1 {
@@ -89,8 +95,32 @@
   background-position: center;
 }
 
+.conta {
+  height: 100%;
+  background-image: url(im_contacto.jpg);
+}
+
+.contact {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px white;
+}
+
+label {
+  color: white;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .nosotros {
   height: 100%;
+  background-image: url(im_nosot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .row {
@@ -123,13 +153,22 @@
   height: 50%;
 }
 
+.card-text {
+  padding: 10px;
+  margin: 0;
+}
+
+.card-body {
+  padding: 2px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+.index {
   height: 100vh;
   background-image: linear-gradient(orange, black);
 }
@@ -138,10 +177,6 @@ body {
 img {
   height: 80px;
   width: 80px;
-}
-
-.navbar-brand:hover {
-  transform: rotate(180deg);
 }
 
 .navbar-nav {
@@ -163,8 +198,10 @@ h1 {
 
 .sec {
   height: 400px;
-  background-image: url(restaurante.jpg);
+  background-image: url(mesa.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .white {
@@ -201,6 +238,26 @@ p {
   100% {
     transform: scale(1.5);
   }
+}
+.foter {
+  justify-content: space-evenly;
+}
+
+.socialIcons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.redes {
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.red-social {
+  height: 40px;
+  width: 40px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

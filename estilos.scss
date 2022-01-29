@@ -17,7 +17,7 @@ $font1:'Luxurious Script', cursive;
 }
 
 
-body {
+.index {
     height: 100vh;
     background-image: linear-gradient(orange, black);
 }
@@ -29,9 +29,7 @@ img {
     width: 80px;
 }
 
-.navbar-brand:hover {
-    transform: rotate(180deg);
-}
+
 .navbar-nav{
     padding-left: 70px;
 }
@@ -50,8 +48,11 @@ h1{
 
 .sec {
     height: 400px;
-    background-image: url(restaurante.jpg);
+    background-image: url(mesa.jpg);
     background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+   
 }
 
 .white {
@@ -90,4 +91,24 @@ p {
         transform: scale(1.5);
     }
 }
+.foter{
+    justify-content:space-evenly;
+}
+//navegador
+.socialIcons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+.redes{
+    text-decoration: none;
+    padding-right: 10px;
+}
+.red-social{
+    height: 40px;
+    width: 40px;
+}
+  
+ 
 //final-index
