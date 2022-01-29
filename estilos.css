@@ -98,11 +98,14 @@
 .conta {
   height: 100%;
   background-image: url(im_contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact {
   font-family: "Times New Roman", Times, serif;
-  font-size: 60px;
+  font-size: 40px;
   text-shadow: 2px 2px 2px white;
 }
 
@@ -112,6 +115,10 @@ label {
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.mapa {
+  width: 100%;
 }
 
 .nosotros {
@@ -125,11 +132,13 @@ h2 {
 
 .row {
   margin: 0;
+  width: 100%;
 }
 
 .card {
-  margin-left: 60px;
-  margin-top: 30px;
+  margin-top: 10%;
+  margin-left: 14%;
+  margin-right: 14%;
   height: 420px;
 }
 
