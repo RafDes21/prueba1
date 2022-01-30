@@ -175,6 +175,16 @@ h2 {
   padding: 2px;
 }
 
+.carousel-inner {
+  width: 100%;
+  max-height: 560px;
+}
+
+.evento {
+  width: 100%;
+  height: 100vh;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -193,7 +203,7 @@ img {
 }
 
 .nav-link {
-  font-size: 20px;
+  font-size: 15px;
   border-color: antiquewhite;
   text-shadow: 1px 1px 1px black;
 }
@@ -201,16 +211,17 @@ img {
 .nav-link:hover {
   border: 1.5px solid black;
   background-color: aqua;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 10px;
   height: auto;
 }
 
 .detalles {
-  border-top: 1px solid #0e0e24;
+  border: 0;
 }
 
 .detalles:hover {
+  border-radius: 15px;
   transform: scale(25deg);
   height: auto;
   background-color: cadetblue;

@@ -11,6 +11,7 @@ $font3:'Quintessential', cursive;
 @import"_productos.scss";
 @import"_contacto.scss";
 @import"_nosotros.scss";
+@import"_galeria.scss";
 //inicio-index
 * {
     margin: 0;
@@ -31,14 +32,14 @@ img {
     width: 80px;
 }
 .nav-link{
-    font-size: 20px;
+    font-size: 15px;
     border-color: antiquewhite;
     text-shadow: 1px 1px 1px black;
 }
 .nav-link:hover{
     border: 1.5px solid black;
     background-color: aqua;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 10px;
     height: auto;
     
@@ -46,10 +47,10 @@ img {
    
 }
 .detalles{
-    border-top: 1px solid rgb(14, 14, 36);
+    border: 0;
 }
 .detalles:hover{
-    
+    border-radius: 15px;
     transform: scale(25deg);
     height: auto;
     background-color: cadetblue;
