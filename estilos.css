@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Lora&family=Luxurious+Script&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Lora&family=Luxurious+Script&family=Quintessential&family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Script&family=Roboto+Condensed&display=swap");
 .producto {
   height: 100%;
@@ -180,7 +182,8 @@ h2 {
 }
 
 .index {
-  height: 100vh;
+  height: 100%;
+  background-image: linear-gradient(black, #1f1c1c, #3e3e5e);
 }
 
 /*Nav-Inicio*/
@@ -189,14 +192,43 @@ img {
   width: 80px;
 }
 
+.nav-link {
+  font-size: 20px;
+  border-color: antiquewhite;
+  text-shadow: 1px 1px 1px black;
+}
+
+.nav-link:hover {
+  border: 1.5px solid black;
+  background-color: aqua;
+  font-size: 22px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.detalles {
+  border-top: 1px solid #0e0e24;
+}
+
+.detalles:hover {
+  transform: scale(25deg);
+  height: auto;
+  background-color: cadetblue;
+}
+
+.empresa {
+  background-color: white;
+}
+
 .navbar-nav {
   padding-left: 70px;
 }
 
 h1 {
-  font-family: "Luxurious Script", cursive;
+  font-family: "Quintessential", cursive;
   font-size: 60px;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 1px 1px #d3d378;
+  font-weight: 900;
 }
 
 /*Nav-Final*/
@@ -216,16 +248,32 @@ h1 {
 
 .white {
   color: beige;
-  text-shadow: 3px 3px 3px darkred;
+  text-shadow: 3px 3px 3px black;
+  margin-left: 60px;
+}
+
+.linea-1 {
+  font-size: 50px;
+}
+
+.sub-linea {
+  font-size: 20px;
 }
 
 /*Jumbotron-final*/
 /*seccion-inicio*/
+.hola {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 40px;
+}
+
 .socialIcons {
   display: flex;
   list-style: none;
   justify-content: center;
   margin: 0;
+  height: 100px;
 }
 
 .redes {
@@ -236,6 +284,11 @@ h1 {
 .red-social {
   height: 40px;
   width: 40px;
+}
+
+.red-social:hover {
+  height: 60px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
