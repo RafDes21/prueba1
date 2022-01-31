@@ -13,14 +13,17 @@ $alto: 150px;
 
 .caja1{
   height: $alto;
-  border: 2px solid black;
-  overflow: auto;
-  
+  border-radius: 10px;
+}
+.caja1:hover{
+  transform: scale(1.1);
 }
 .caja2{
   height: $alto;
-  border: 2px solid black;
-  overflow: auto;
+}
+.caja2:hover{
+  background-color: rgb(29, 141, 141);
+  border-radius: 10px;
 }
 .big{
   padding: 20px;
